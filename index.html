@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information Technology Department - Kingston engineering college</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo-oval-container">
+            <img src="download (1).jfif" alt="Department Logo" class="logo"></div>
+            <h1>Department of Information Technology</h1>
+            <p>Excellence in Computing Education and Research</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="nav-container">
+            <div class="brand">
+                <span class="fas fa-laptop-code"></span> IT Dept
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="courses.html"><i class="fas fa-book"></i> Courses</a></li>
+                <li><a href="faculty.html"><i class="fas fa-chalkboard-teacher"></i> Faculty</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <h2>Welcome to Our Department</h2>
+            <p>The Department of Information Technology at Kingston engineering college is committed to providing world-class education in computing and information technology. Our programs combine rigorous academic study with practical experience to prepare students for successful careers in the tech industry.</p>
+            <a href="about.html" class="btn">Learn More</a>
+        </div>
+
+        <div class="card">
+            <h2>Upcoming Events</h2>
+            <div class="event-list">
+                <div class="event-item">
+                    <h3>Tech Symposium 2023</h3>
+                    <p><i class="far fa-calendar-alt"></i> November 15-17, 2023</p>
+                    <p>Join us for our annual technology conference featuring industry leaders and cutting-edge research presentations.</p>
+                </div>
+                <div class="event-item">
+                    <h3>Hackathon Competition</h3>
+                    <p><i class="far fa-calendar-alt"></i> December 5-6, 2023</p>
+                    <p>48-hour coding competition with prizes for the most innovative projects.</p>
+                </div>
+            </div>
+            <a href="#" class="btn btn-outline">View All Events</a>
+        </div>
+
+        <div class="card">
+            <h2>Featured Courses</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Course Code</th>
+                        <th>Course Name</th>
+                        <th>Instructor</th>
+                        <th>Schedule</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CS5101</td>
+                        <td>Multimedia and Animation</td>
+                        <td>Prof. Smith</td>
+                        <td>Mon/Wed 10:00-11:30</td>
+                    </tr>
+                    <tr>
+                        <td>CSCI202</td>
+                        <td>Web Development</td>
+                        <td>Prof. Johnson</td>
+                        <td>Tue/Thu 13:00-14:30</td>
+                    </tr>
+                    <tr>
+                        <td>CS4103</td>
+                        <td>Artificial Intelligence</td>
+                        <td>Dr. Lee</td>
+                        <td>Fri 9:00-12:00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="courses.html" class="btn">View All Courses</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p>&copy; 2023 Information Technology at Kingston engineering college. All rights reserved.</p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple search functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchBtn = document.querySelector('.search-btn');
+            if (searchBtn) {
+                searchBtn.addEventListener('click', function() {
+                    const searchTerm = document.querySelector('.search-input').value.toLowerCase();
+                    alert(`Search functionality would look for: ${searchTerm}`);
+                    // In a real implementation, this would filter content or redirect to search results
+                });
+            }
+        });
+    </script>
+</body>
+</html>

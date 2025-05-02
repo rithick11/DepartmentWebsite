@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - Information Technology Department</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo-oval-container">
+                <img src="download (1).jfif" alt="Department Logo" class="logo"></div>
+            <h1>Our Courses</h1>
+            <p>Explore our comprehensive computer science curriculum</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="nav-container">
+            <div class="brand">
+                <span class="fas fa-laptop-code"></span> IT Dept
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="courses.html" class="active"><i class="fas fa-book"></i> Courses</a></li>
+                <li><a href="faculty.html"><i class="fas fa-chalkboard-teacher"></i> Faculty</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <div class="course-filter">
+                <div class="filter-options">
+                    <select class="form-control">
+                        <option value="">All Programs</option>
+                        <option value="ug">Undergraduate</option>
+                        <option value="pg">Postgraduate</option>
+                        <option value="phd">PhD</option>
+                    </select>
+                    <select class="form-control">
+                        <option value="">All Specializations</option>
+                        <option value="ai">Artificial Intelligence</option>
+                        <option value="web">Web Development</option>
+                        <option value="data">Data Science</option>
+                        <option value="cyber">Cybersecurity</option>
+                    </select>
+                    <button class="btn">Filter</button>
+                </div>
+                <div class="search-box">
+                    <input type="text" class="form-control" placeholder="Search courses...">
+                    <button class="btn"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Undergraduate Courses</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Code</th>
+                        <th>Course Name</th>
+                        <th>Credits</th>
+                        <th>Prerequisites</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CS101</td>
+                        <td>Introduction to Programming</td>
+                        <td>4</td>
+                        <td>None</td>
+                        <td><a href="#" class="btn btn-outline">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>CS202</td>
+                        <td>Data Structures and Algorithms</td>
+                        <td>4</td>
+                        <td>CS101</td>
+                        <td><a href="#" class="btn btn-outline">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>CS5101</td>
+                        <td>Multimedia and Animation</td>
+                        <td>3</td>
+                        <td>CS202</td>
+                        <td><a href="#" class="btn btn-outline">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>CSCI202</td>
+                        <td>Web Development</td>
+                        <td>3</td>
+                        <td>CS101</td>
+                        <td><a href="#" class="btn btn-outline">View</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>Postgraduate Courses</h2>
+            <div class="course-grid">
+                <div class="course-card">
+                    <h3>Advanced Machine Learning</h3>
+                    <p><strong>Code:</strong> CS601</p>
+                    <p><strong>Credits:</strong> 4</p>
+                    <p>Explore cutting-edge machine learning techniques and applications.</p>
+                    <a href="#" class="btn btn-outline">Course Details</a>
+                </div>
+                <div class="course-card">
+                    <h3>Cloud Computing</h3>
+                    <p><strong>Code:</strong> CS602</p>
+                    <p><strong>Credits:</strong> 3</p>
+                    <p>Architectures, technologies, and applications of cloud computing.</p>
+                    <a href="#" class="btn btn-outline">Course Details</a>
+                </div>
+                <div class="course-card">
+                    <h3>Cybersecurity Fundamentals</h3>
+                    <p><strong>Code:</strong> CS603</p>
+                    <p><strong>Credits:</strong> 3</p>
+                    <p>Principles and practices for securing computer systems and networks.</p>
+                    <a href="#" class="btn btn-outline">Course Details</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Special Programs</h2>
+            <div class="programs">
+                <div class="program">
+                    <i class="fas fa-robot"></i>
+                    <h3>AI Certification</h3>
+                    <p>6-month intensive program in Artificial Intelligence</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+                <div class="program">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Cybersecurity Bootcamp</h3>
+                    <p>12-week hands-on training in cybersecurity</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p>&copy; 2023 Information Technology at Kingston engineering college. All rights reserved.</p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+</body>
+</html>
